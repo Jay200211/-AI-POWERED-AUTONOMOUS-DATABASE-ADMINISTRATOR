@@ -1,0 +1,58 @@
+{
+  "MyDatabase": {
+    "customers": [
+      {
+        "name": "id",
+        "type": "int"
+      },
+      {
+        "name": "first_name",
+        "type": "varchar"
+      },
+      {
+        "name": "country",
+        "type": "varchar"
+      },
+      {
+        "name": "score",
+        "type": "int"
+      }
+    ],
+    "orders": [
+      {
+        "name": "order_id",
+        "type": "int"
+      },
+      {
+        "name": "customer_id",
+        "type": "int"
+      },
+      {
+        "name": "order_date",
+        "type": "date"
+      },
+      {
+        "name": "sales",
+        "type": "int"
+      }
+    ],
+    "persons": [
+      {
+        "name": "id",
+        "type": "int"
+      },
+      {
+        "name": "person_name",
+        "type": "varchar"
+      },
+      {
+        "name": "nirth_date",
+        "type": "date"
+      },
+      {
+        "name": "phone",
+        "type": "varchar"
+      }
+    ]
+  }
+}
